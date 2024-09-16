@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Fet per Anas Chatt
 # Comprovació que estem amb root
 if [ "$(id -u)" != "0" ]; then
    echo "Aquest programa s'ha d'executar amb l'usuari root" 1>&2;
