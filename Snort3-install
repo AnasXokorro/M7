@@ -45,7 +45,7 @@ then
   make >>$logfile
   sudo make install >>$logfile;
 else
-  echo "\033[0;32mSKIPPING\033[0m: Libsafe is already installed.";
+  echo "\033[0;32mSKIPPING\033[0m: Libsafe instalado.";
 fi
 result=""
 
@@ -69,7 +69,7 @@ then
   make >>$logfile
   sudo make install >>$logfile;
 else
-  echo "\033[0;32mSKIPPING\033[0m: Ragel is already installed.";
+  echo "\033[0;32mSKIPPING\033[0m: Ragel instalado.";
 fi
 result=""
 
@@ -99,7 +99,7 @@ then
   make >>$logfile
   sudo make install >>$logfile;
 else
-  echo "\033[0;32mSKIPPING\033[0m: Hyperscan is already installed.";
+  echo "\033[0;32mSKIPPING\033[0m: Hyperscan instalado.";
 fi
 result=""
 
@@ -127,7 +127,7 @@ then
   sudo make install > /dev/null 2>>$logfile
   sudo ldconfig >>$logfile
 else
-  echo "\033[0;32mSKIPPING\033[0m: DAQ is already installed.";
+  echo "\033[0;32mSKIPPING\033[0m: DAQ instalado.";
 fi
 result=""
 
@@ -148,7 +148,7 @@ then
   make -j $(nproc) install >>$logfile
   # sudo make install >>$logfile
 else
-  echo "\033[0;32mSKIPPING\033[0m: Snort is already installed.";
+  echo "\033[0;32mSKIPPING\033[0m: Snort instalado.";
 fi
 result=""
 
