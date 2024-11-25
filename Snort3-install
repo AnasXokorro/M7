@@ -1,11 +1,11 @@
-# I scripted out the installation commands from the Snort setup guide for Ubuntu 16:
-#   https://s3.amazonaws.com/snort-org-site/production/document_files/files/000/000/123/original/Snort_3.0.0-a4-223_on_Ubuntu_14_and_16.pdf
+# Escribí los comandos de instalación de la guía de configuración de Snort para Ubuntu 16:
+# https://s3.amazonaws.com/snort-org-site/production/document_files/files/000/000/123/original/Snort_3.0.0-a4-223_on_Ubuntu_14_and_16.pdf
 # 
-# This script will install all the prerequisites for Snort, including Snort itself.
-# As time passes, it may be necessary to update the download URLs for Libsafe, Ragel, Hyperscan, DAQ, and Snort. As those are hard-coded URLs based on their versions
+# Este script instalará todos los requisitos previos para Snort, incluido Snort.
+# A medida que pasa el tiempo, puede ser necesario actualizar las URL de descarga de Libsafe, Ragel, Hyperscan, DAQ y Snort. Como esas son URL codificadas en función de sus versiones
 #
-# How to run the script:
-#  sudo sh snort_install.sh
+# Cómo ejecutar el script:
+# sudo sh snort_install.sh
 
 logfile=~/snort_install.log
 echo "#### SNORT SETUP SCRIPT ####\n" > $logfile
